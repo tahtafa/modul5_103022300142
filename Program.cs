@@ -4,7 +4,12 @@
     {
         static void Main(string[] args)
         {
-            //first
+            
+            SimpleDataBase<float> simpleDataBase = new SimpleDataBase<float>();
+            simpleDataBase.AddNewData(10);
+            simpleDataBase.AddNewData(30);
+            simpleDataBase.AddNewData(22);
+            simpleDataBase.PrintAllData();
         }
     }
 }
